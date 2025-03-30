@@ -166,6 +166,4 @@ This project uses Google's Word2Vec model under the **Google Research License**.
 ### 🚀 **Start Exploring Word2Vec Today!**
 Try experimenting with different words and tasks using this model to deepen your understanding of word embeddings.
 
----
-
-This README now serves as a **self-contained learning resource** for anyone, whether they are beginners or advanced users. Let me know if you need any modifications! 🚀
+-
