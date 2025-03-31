@@ -21,25 +21,37 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
+    /* Main Header - Bold & Eye-catching */
     .main-header {
         font-size: 2.5rem;
-        color: #1E88E5;
+        color: #1565C0; /* Deep Blue */
         text-align: center;
+        font-weight: bold;
     }
+
+    /* Subheader - Slightly Softer but Strong */
     .subheader {
         font-size: 1.5rem;
-        color: #0D47A1;
+        color: #1E88E5; /* Medium Blue */
+        font-weight: 600;
     }
+
+    /* Info Box - Light and Easy on the Eyes */
     .info-box {
-        background-color: #E3F2FD;
+        background-color: #BBDEFB; /* Soft Sky Blue */
         padding: 1rem;
         border-radius: 0.5rem;
         margin: 1rem 0;
+        border-left: 5px solid #1E88E5; /* Adds a subtle accent */
     }
+
+    /* Metric Box - Soft & Elegant */
     .stMetric {
-        background-color: #E8EAF6;
+        background-color: #C5CAE9; /* Light Indigo */
         padding: 10px;
         border-radius: 5px;
+        color: #283593; /* Darker contrast text */
+        font-weight: bold;
     }
 </style>
 """, unsafe_allow_html=True)
